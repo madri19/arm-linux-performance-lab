@@ -56,6 +56,8 @@ Focused on:
 
 ## Next Tooling Focus
 
+After Experiment 05, the investigation begins shifting more heavily into Linux performance tooling and syscall-level analysis.
+
 Upcoming experiments will add deeper Linux performance/debugging tools:
 
 - `strace` for syscall inspection
