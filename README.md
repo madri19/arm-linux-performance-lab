@@ -84,6 +84,7 @@ Upcoming tooling areas include:
 | [04_persistent_tcp_latency](experiments/04_persistent_tcp_latency) | Measuring latency using a persistent TCP connection between macOS and ARM Cortex-A5 hardware |
 | [05_tcp_nodelay_latency](experiments/05_tcp_nodelay_latency) | Measuring TCP latency with TCP_NODELAY enabled |
 | [06_strace_tcp_analysis](experiments/06_strace_tcp_analysis) | Inspecting TCP echo syscall behavior using strace on ARM Linux |
+| [07_payload_size_scaling](experiments/07_payload_size_scaling) | Measuring TCP latency scaling as payload size increases |
 
 ## Related Project
 
