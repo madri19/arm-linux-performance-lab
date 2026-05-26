@@ -1,0 +1,17 @@
+# Build directories
+build/
+
+# Object files
+*.o
+
+# Generic binaries
+*.out
+*.a
+
+# macOS
+.DS_Store
+
+# Experiment binaries
+experiments/*/*_client
+experiments/*/*_server
+experiments/*/*_benchmark
