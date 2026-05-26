@@ -75,8 +75,10 @@ Upcoming experiments will add deeper Linux performance/debugging tools:
 | [03_tcp_echo_latency](experiments/03_tcp_echo_latency) | Measuring TCP round-trip latency between macOS and ARM Cortex-A5 hardware |
 | [04_persistent_tcp_latency](experiments/04_persistent_tcp_latency) | Measuring latency using a persistent TCP connection between macOS and ARM Cortex-A5 hardware |
 | [05_tcp_nodelay_latency](experiments/05_tcp_nodelay_latency) | Measuring TCP latency with TCP_NODELAY enabled |
+| [06_strace_tcp_analysis](experiments/06_strace_tcp_analysis) | Inspecting TCP echo syscall behavior using strace on ARM Linux |
 
 ## Related Project
+
 
 - https://github.com/madri19/sama5d3-network-monitor
 
