@@ -45,3 +45,10 @@ Focused on:
 
 - https://github.com/madri19/sama5d3-network-monitor
 
+
+## Experiments
+
+| Experiment | Description |
+|---|---|
+| 01_proc_net_dev_benchmark | Benchmarking `/proc/net/dev` parsing overhead on ARM Cortex-A5 hardware |
+
