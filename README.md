@@ -54,16 +54,24 @@ Focused on:
 - Hypothesis-driven performance testing
 - macOS host ↔ ARM target workflows
 
-## Next Tooling Focus
+## Linux Tooling Progression
 
-After Experiment 05, the investigation begins shifting more heavily into Linux performance tooling and syscall-level analysis.
+After Experiment 05, the investigation expanded beyond benchmark timing into Linux syscall tracing and performance tooling.
 
-Upcoming experiments will add deeper Linux performance/debugging tools:
+Tooling now used in the workflow includes:
 
 - `strace` for syscall inspection
+- `/proc` inspection
+- Buildroot userspace customization
+- SSH deployment/debug workflows
+
+Upcoming tooling areas include:
+
 - `perf` for CPU/profile analysis where available
-- `top`/`ps` for runtime process observation
-- `/proc` and `/sys` for kernel/userspace interface inspection
+- `top` / `ps` runtime observation
+- packet capture tooling
+- non-blocking socket analysis
+- scheduler behavior analysis
 
 
 ## Experiments
