@@ -98,6 +98,7 @@ Planned tooling areas:
 | [06_strace_tcp_analysis](experiments/06_strace_tcp_analysis) | Inspecting TCP echo syscall behavior using `strace` on ARM Linux |
 | [07_payload_size_scaling](experiments/07_payload_size_scaling) | Measuring TCP latency scaling as payload size increases |
 | [08_threading_scheduler_behavior](experiments/08_threading_scheduler_behavior) | Measuring producer/consumer synchronization overhead and scheduler behavior on ARM Linux |
+| [09_timing_jitter](experiments/09_timing_jitter) | Measuring scheduler wakeup timing accuracy and jitter on ARM Linux |
 
 ## Related Project
 
