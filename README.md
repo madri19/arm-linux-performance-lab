@@ -40,6 +40,30 @@ Focused on:
 - Buildroot cross-toolchain
 - Remote SSH deployment to target board
 
+
+## Tools Used / Skills Practiced
+
+- Buildroot cross-compilation
+- ARM Linux deployment
+- UART serial console debugging
+- Dropbear SSH setup
+- SCP remote deployment
+- Linux `/proc` inspection
+- TCP socket programming
+- Latency benchmarking
+- Hypothesis-driven performance testing
+- macOS host ↔ ARM target workflows
+
+## Next Tooling Focus
+
+Upcoming experiments will add deeper Linux performance/debugging tools:
+
+- `strace` for syscall inspection
+- `perf` for CPU/profile analysis where available
+- `top`/`ps` for runtime process observation
+- `/proc` and `/sys` for kernel/userspace interface inspection
+
+
 ## Experiments
 
 | Experiment | Description |
