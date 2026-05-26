@@ -100,6 +100,7 @@ Planned tooling areas:
 | [08_threading_scheduler_behavior](experiments/08_threading_scheduler_behavior) | Measuring producer/consumer synchronization overhead and scheduler behavior on ARM Linux |
 | [09_timing_jitter](experiments/09_timing_jitter) | Measuring scheduler wakeup timing accuracy and jitter on ARM Linux |
 | [10_memory_access_patterns](experiments/10_memory_access_patterns) | Comparing sequential vs random memory access performance on ARM Linux |
+| [11_long_running_observation](experiments/11_long_running_observation) | Observing memory, load, and process stability during a sustained workload |
 
 ## Related Project
 
