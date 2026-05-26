@@ -103,3 +103,5 @@ Planned tooling areas:
 
 - https://github.com/madri19/sama5d3-network-monitor
 
+  Earlier ATSAMA5D3 board bring-up work and Ethernet network monitoring demo project used during initial ARM embedded Linux setup and experimentation.
+
