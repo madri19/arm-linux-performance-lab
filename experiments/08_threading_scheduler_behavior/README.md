@@ -60,7 +60,15 @@ Because the board is single-core, this does not measure multicore parallel execu
 
 ## Why This Matters
 
-The NVIDIA role emphasizes operating systems, concurrency, performance analysis, and complex software stack behavior.
+This experiment expands the repository into concurrency and scheduler behavior analysis.
 
-This experiment adds a concurrency/scheduler dimension to the repo, complementing earlier networking and syscall experiments.
+The benchmark introduces:
+
+- thread synchronization
+- mutex coordination
+- condition variable wakeups
+- userspace scheduler interaction
+- producer/consumer workload behavior
+
+This complements earlier networking and syscall-focused experiments by adding multithreaded systems behavior analysis on embedded ARM Linux hardware.
 
