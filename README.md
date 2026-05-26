@@ -40,15 +40,14 @@ Focused on:
 - Buildroot cross-toolchain
 - Remote SSH deployment to target board
 
-
-## Related Project
-
-- https://github.com/madri19/sama5d3-network-monitor
-
-
 ## Experiments
 
 | Experiment | Description |
 |---|---|
 | 01_proc_net_dev_benchmark | Benchmarking `/proc/net/dev` parsing overhead on ARM Cortex-A5 hardware |
+| 02_raw_vs_parsed_procfs | Comparing procfs read overhead against userspace parsing overhead |
+
+## Related Project
+
+- https://github.com/madri19/sama5d3-network-monitor
 
