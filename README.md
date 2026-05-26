@@ -47,6 +47,7 @@ Focused on:
 | [01_proc_net_dev_benchmark](experiments/01_proc_net_dev_benchmark) | Benchmarking `/proc/net/dev` parsing overhead on ARM Cortex-A5 hardware |
 | [02_raw_vs_parsed_procfs](experiments/02_raw_vs_parsed_procfs) | Comparing procfs read overhead against userspace parsing overhead |
 | [03_tcp_echo_latency](experiments/03_tcp_echo_latency) | Measuring TCP round-trip latency between macOS and ARM Cortex-A5 hardware |
+| [04_persistent_tcp_latency](experiments/04_persistent_tcp_latency) | Measuring latency using a persistent TCP connection between macOS and ARM Cortex-A5 hardware |
 
 ## Related Project
 
