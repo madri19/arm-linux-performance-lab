@@ -40,3 +40,8 @@ Focused on:
 - Buildroot cross-toolchain
 - Remote SSH deployment to target board
 
+
+## Related Project
+
+- https://github.com/madri19/sama5d3-network-monitor
+
