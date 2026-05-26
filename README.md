@@ -48,6 +48,7 @@ Focused on:
 | [02_raw_vs_parsed_procfs](experiments/02_raw_vs_parsed_procfs) | Comparing procfs read overhead against userspace parsing overhead |
 | [03_tcp_echo_latency](experiments/03_tcp_echo_latency) | Measuring TCP round-trip latency between macOS and ARM Cortex-A5 hardware |
 | [04_persistent_tcp_latency](experiments/04_persistent_tcp_latency) | Measuring latency using a persistent TCP connection between macOS and ARM Cortex-A5 hardware |
+| [05_tcp_nodelay_latency](experiments/05_tcp_nodelay_latency) | Measuring TCP latency with TCP_NODELAY enabled |
 
 ## Related Project
 
