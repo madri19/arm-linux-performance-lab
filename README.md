@@ -102,6 +102,12 @@ Planned tooling areas:
 | [10_memory_access_patterns](experiments/10_memory_access_patterns) | Comparing sequential vs random memory access performance on ARM Linux |
 | [11_long_running_observation](experiments/11_long_running_observation) | Observing memory, load, and process stability during a sustained workload |
 
+## Phase 1 Summary
+
+See:
+
+- [docs/phase1_summary.md](docs/phase1_summary.md)
+
 ## Related Project
 
 - https://github.com/madri19/sama5d3-network-monitor
