@@ -12,6 +12,26 @@ Focused on:
 - Buildroot
 - Performance analysis on Cortex-A5 hardware
 
+## Phase 1 Scope
+
+This repository is Phase 1 of a broader systems-performance learning path.
+
+Phase 1 focuses on ARM embedded Linux fundamentals using a physical Cortex-A5 board:
+
+- embedded Linux
+- Buildroot
+- ARM userspace behavior
+- networking
+- syscall behavior
+- threading and scheduler behavior
+- remote SSH workflows
+- constrained hardware performance analysis
+
+Later phases will move to separate repositories:
+
+- Phase 2: Linux desktop/workstation systems performance
+- Phase 3: GPU/HPC-style heterogeneous compute performance
+
 ## Hardware
 
 - Atmel ATSAMA5D36
@@ -85,6 +105,7 @@ Upcoming tooling areas include:
 | [05_tcp_nodelay_latency](experiments/05_tcp_nodelay_latency) | Measuring TCP latency with TCP_NODELAY enabled |
 | [06_strace_tcp_analysis](experiments/06_strace_tcp_analysis) | Inspecting TCP echo syscall behavior using strace on ARM Linux |
 | [07_payload_size_scaling](experiments/07_payload_size_scaling) | Measuring TCP latency scaling as payload size increases |
+| [08_threading_scheduler_behavior](experiments/08_threading_scheduler_behavior) | Measuring producer/consumer threading synchronization overhead on ARM Linux |
 
 ## Related Project
 
