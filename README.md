@@ -1,4 +1,4 @@
-# ARM Linux Performance Lab
+# ARM Embedded Linux Performance Lab
 
 Systems-performance experiments on embedded ARM Linux hardware.
 
